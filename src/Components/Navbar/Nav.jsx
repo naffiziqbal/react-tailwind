@@ -24,7 +24,7 @@ const Nav = () => {
 
             </div>
 
-            <ul className={ ` md:flex justify-center absolute md:static   ${ open ? "top-10 " : " -inset-y-80"} w-full bg-slate-800 text-white h-40 pt-4 duration-1000 ease-in `}>
+            <ul className={ ` md:flex justify-center absolute md:static   ${ open ? "top-10 " : " -inset-y-80"} w-full bg-slate-800 text-white md:h-12 h-40 pt-4 duration-1000 ease-in `}>
 
             {
                 routes.map(route=> <NavItems 
